@@ -13,17 +13,17 @@
 <body>
 <!-- header -->
 <header class = "navbar">
-<img src="./project-assets/logos/circle.svg" alt="circle logo">
+  <img id="navbarLogo" src="./project-assets/logos/circle.svg" alt="circle-logo" />
 
-<nav class="nav">
+  <nav class="nav">
     <ul>
         <li><a href="#Home"></a>Home</li>
         <li><a href="#Projects"></a>Projects</li>
         <li><a href="#Services"></a>Services</li>
     </ul>
 </nav>
-<div class="buttonConractUs">
-    <button>Contact Us</button>
+<div class="buttonContactUs">
+    <a href="#" class="buttonContactUs">Contact Us</a>
 </div>
 </header>
 
@@ -34,14 +34,14 @@
             <h1 class = "mainH1">Empoyer Your Bussiness With Stunning Design!</h1>
             <div class="mainText">Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</div>
             <div class="mainButtons">
-                <a href="#" class="mainseeOurWork">See our work</a>
-                <a href="#" class="maingetInTouch">Get in touch</a>
+                <a href="#" class="mainSeeOurWork">See our work</a>
+                <a href="#" class="mainGetInTouch">Get in touch</a>
             </div>
         </div>
         <div class="mainImg">
-            <img src="./project-assets/hero-section/card-1.png" alt="card-1">
-            <img src="./project-assets/hero-section/hero-image.png" alt="hero-image">
-            <img src="./project-assets/hero-section/card-2.png" alt="card-2">
+            <img src="./project-assets/hero-section/card-1.png" alt="card-1" class="card-1">
+            <img src="./project-assets/hero-section/hero-image.png" alt="hero-image" class="hero-img">
+            <img src="./project-assets/hero-section/card-2.png" alt="card-2" class="card-2">
 
         </div>
 
@@ -78,45 +78,45 @@
     <div class="recentProjectsContainer">
         <h2 class = "title">Recent Projects</h2>
         <div class="recentProjectsList">
-            <div role="list" class="recentProjectsListRole">
-                <div role="listitem" class="recentProjectsListItem">
-                    <div class="project-Card">
+            <div  class="recentProjectsListRole">
+                <div  class="recentProjectsListItem">
+                    <div class="projectCard">
                         <div class ="projectImg">
-                            <img src="./project-assets/projects-section/1.jpg" alt="1">
+                            <img src="./project-assets/projects-section/1.jpg" alt="1" class="projectImg">
                         </div>
                         <div class ="projectContent">
                             <div class ="projectText">
                                 <div class ="projectTitle">Simplify</div>
                                 <div class ="projectDescription">UI Design & App Development</div>
-                                <a href="">Learn More</a>
+                                <a href=""target="_blank" class="projectLink" >Learn More</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div role="listitem" class="recentProjectsListItem">
+                <div class="recentProjectsListItem">
                     <div class="project-Card">
                         <div class ="projectImg">
-                            <img src="./project-assets/projects-section/2.jpg" alt="2">
+                            <img src="./project-assets/projects-section/2.jpg" alt="2" class="projectImg">
                         </div>
                         <div class ="projectContent">
                             <div class ="projectText">
                                 <div class ="projectTitle">Dashcoin</div>
                                 <div class ="projectDescription">Web Development</div>
-                                <a href="">Learn More</a>
+                                <a href=""target="_blank" class="projectLink" >Learn More</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div role="listitem" class="recentProjectsListItem">
+                <div class="recentProjectsListItem">
                     <div class="project-Card">
                         <div class ="projectImg">
-                            <img src="./project-assets/projects-section/3.jpg" alt="3">
+                            <img src="./project-assets/projects-section/3.jpg" alt="3" class="projectImg">
                         </div>
                         <div class ="projectContent">
                             <div class ="projectText">
                                 <div class ="projectTitle">Vectorify</div>
                                 <div class ="projectDescription">User Experience Design</div>
-                                <a href="">Learn More</a>
+                                <a href=""target="_blank" class="projectLink" >Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -130,10 +130,10 @@
 <div class="ourClients">
     <div class="ourClientsContainer">
         <h3 class="ourClientsTitle">Hear What Our Clients Have to Say</h3>
-        <div class="ourClientsText">""Circle helped us through every stage of our startup. We really enjoyed working with you.""</div>
+        <div class="ourClientsText">"Circle helped us through every stage of our startup. We really enjoyed working with you."</div>
         <div class="client">
             <div class="clientImg">
-                <img src="./project-assets/testimonial-section/profile.png" alt="">
+                <img src="./project-assets/testimonial-section/profile.png" class="clientImg" alt="profile">
             </div>
             <div class="clientInfo">
                 <div class="clientName">Kristin Watson</div>
@@ -142,16 +142,16 @@
         </div>
     </div>
     <div class="emojiTopLeft">
-        <img src="./project-assets/testimonial-section/memoji-1.png" alt="">
+        <img src="./project-assets/testimonial-section/memoji-1.png" class="emojiTopLeft" alt="emoji1">
     </div>
     <div class="emojiTopRight">
-        <img src="./project-assets/testimonial-section/memoji-2.png" alt="">
+        <img src="./project-assets/testimonial-section/memoji-4.png" class="emojiTopRight" alt="emoji2">
     </div>
     <div class="emojiBottomLeft">
-        <img src="./project-assets/testimonial-section/memoji-3.png" alt="">
+        <img src="./project-assets/testimonial-section/memoji-3.png" class="emojiBottomLeft" alt="emoji3">
     </div>
     <div class="emojiBottomRight">
-        <img src="./project-assets/testimonial-section/memoji-4.png" alt="">
+        <img src="./project-assets/testimonial-section/memoji-2.png" class="emojiBottomRight" alt="emoji4">
     </div>
 </div>
 
@@ -161,9 +161,7 @@
         <h1 class ="title">Our Services</h1>
         <div class="servicesGrid">
             <div class="serviceCard">
-                <div class="service-icon1">
-                    <img src="./project-assets/services-section/icons/1.svg" alt="service-icon1">
-                </div>
+                <div class="serviceIcon1"></div>
                 <div class="service-content">
                     <div class="service-text">
                         <div class="projectTitle">User Interface Design</div>
@@ -173,10 +171,7 @@
                 </div>
             </div>
             <div class="serviceCard">
-                <div class="service-icon2">
-                    <img src="./project-assets/services-section/icons/2.svg" alt="service-icon2">
-
-                </div>
+                <div class="serviceIcon2"></div>
                 <div class="service-content">
                     <div class="service-text">
                         <div class="projectTitle">User Experience Design</div>
@@ -186,9 +181,7 @@
                 </div>
             </div>
             <div class="serviceCard">
-                <div class="service-icon3">
-                    <img src="./project-assets/services-section/icons/3.svg" alt="service-icon3">
-                </div>
+                <div class="serviceIcon3"></div>
                 <div class="service-content">
                     <div class="service-text">
                         <div class="projectTitle">Application Development</div>
