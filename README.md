@@ -10,6 +10,10 @@
 
 
 ### Día 2 - 22NOV2022 📆
+<p>1er dia de proyecto:</p>
+<li>1. Actualizar readme.md</li>
+<li>2. Estructura index.html</li>
+
 
 ### Día 3 - 23NOV2022 📆
 
