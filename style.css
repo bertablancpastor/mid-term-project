@@ -655,6 +655,208 @@ CTA Backgrouns Color: #FFC600
     font-weight: 550;
   }
 
+  /* mediaquerys */
+  /* tablet max-width 1200px */
+  @media (max-width:1200px){
+    .navbar {
+      flex-direction: column;      
+    }
+    .mainContainer{
+      flex-direction: column;
+    }
+    .gridLogos{
+      justify-items: center;
+      align-items: center;
+      grid-column-gap: 50px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto;
+
+    }
+
+    .clientLogoAmazon img{
+      display: none;
+    }
+
+    .recentProjectsListRole{
+      justify-items: stretch;
+      grid-auto-flow: row;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
+    }
+
+    .projectCard{
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .projectImg{
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .ourClients{
+      height: 450px;
+    }
+
+    .ourClientsContainer{
+      height: 100%;
+      justify-content: space-around;
+    }
+
+    .ourClientsTitle{
+      max-width: 400px;
+      margin-bottom: 0px;
+      line-height: 150%;
+    }
+
+    .emojiTopLeft{
+      display: none;
+    }
+
+    .emojiTopRight{
+      display: none;
+    }
+
+    .emojiBottomLeft{
+      display: none;
+    }
+
+    .emojiBottomRight{
+      display: none;
+    }
+
+    .ourServices{
+      margin-top: 40px;
+    }
+
+    .title{
+      text-align: center;
+    }
+
+    .form{
+      width: 100%;
+      
+    }
+
+    .formCta{
+      max-width: 100%;
+      
+    }
+
+    .ctaForm{
+      flex-direction: column;
+    }
+
+    .suscribeButtom{
+      width: 100%;
+      max-width: 100%;
+      margin-top: 20px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+
+    .footer{
+      margin-top: 60px;
+    }
+
+    .footerContainer{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footerContent{
+      align-items: center;
+    }
+
+    .footerContentAdress{
+      text-align: center;
+    }
+
+
+  }
+
+  /* phone */
+  @media(max-width:500px){
+    .navbar {
+      margin-top: 0px;
+      flex-direction: column;  
+      padding-right: 30px;
+      padding-left: 30px;  
+    }
+    .mainContainer{
+      margin-top: 0px;
+      flex-direction: column;
+    }
+
+    .mainContent{
+      display: flex;
+      max-width: 700px;
+      flex-direction: column;
+      align-items: center;
+      align-self: center;
+    }
+
+    .mainH1{
+      font-size: 40px;
+      text-align: center;
+    }
+
+    .mainText{
+      font-size: 17px;
+      text-align: center;
+    }
+
+    .mainButtons{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .hero-img{
+      margin-top: 40px;
+    }
+
+    .card-1{
+      display: none;
+    }
+
+    .card-2{
+      display: none;
+    }
+
+    .logos{
+      margin-top: 40px;
+    }
+
+    .recentProjects{
+      margin-top: 40px;
+    }
+
+    .title{
+      text-align: center;
+    }
+
+    .recentProjectsList{
+      margin-top: 20px;
+    }
+
+    .ourClients{
+      margin-top: 60px;
+      background-position: 50% 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .ourClientsContainer{
+      height: 100%;
+      justify-content: space-around;
+    }
+
+    
+  }
+
+
 
 
 
