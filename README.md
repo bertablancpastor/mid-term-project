@@ -8,7 +8,6 @@
 <li>3. Crear style.css</li>
 <li>4. Crear index.js</li>
 
-
 ### Día 2 - 22NOV2022 📆
 <p>1er dia de proyecto:</p>
 <li>1. Actualizar readme.md</li>
@@ -19,6 +18,9 @@
 ### Día 3 - 23NOV2022 📆
 <p>2n dia de proyecto:</p>
 <li>1. Actualizar readme.md</li>
+<li>2. Seguir aplicando CSS des de Section Our Services</li>
+<li>3. Si se termina CSS empezar a dar functions con JS</li>
+
 
 ### Día 4 - 24NOV2022 📆
 
