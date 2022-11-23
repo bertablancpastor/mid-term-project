@@ -19,7 +19,8 @@
 <p>2n dia de proyecto:</p>
 <li>1. Actualizar readme.md</li>
 <li>2. Seguir aplicando CSS des de Section Our Services</li>
-<li>3. Si se termina CSS empezar a dar functions con JS</li>
+<li>3. Empezar a dar responsive</li>
+<li>4. Si se termina responsive empezar a dar functions con JS</li>
 
 
 ### Día 4 - 24NOV2022 📆
