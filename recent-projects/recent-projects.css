@@ -397,3 +397,143 @@ p {
     line-height: 20px;
     font-weight: 550;
   }
+
+  
+  /* phone */
+  @media(max-width:500px){
+    
+    .navbar {
+      margin-top: 0px;
+      display: flex; 
+      padding-right: 30px;
+      padding-left: 30px;
+      flex-direction: row;
+    }
+
+    .nav{
+      display: none;
+    }
+
+    .nav ul {
+      margin: 0;
+      align-items: center;
+    }
+
+    .hamburger{
+      display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+
+    ul{
+      gap: 0;
+      flex-direction: column;
+      background-color: #F2F4Fc;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+      position: absolute;
+      left: -100%;
+      top:0%    
+    }
+
+    ul.active{
+      left: 0;
+    }
+
+    li{
+      margin: 16px 0;
+      padding: 0;
+    }
+
+    .active{
+      display: block ;
+    }
+
+    .bar{
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      background-color: #292e47;
+    }
+
+    .buttonContactUs{
+      display: none;
+    }
+
+    /* section simplify */
+
+    /* recentProjects */
+    
+    .recentProjects{
+      margin-top: 40px;
+    }
+
+    .title{
+      text-align: center;
+    }
+
+    .recentProjectsContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      max-width: 1100px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .recentProjectsList{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+  
+    }
+
+
+    /* form */
+    .form{
+      max-width: 100%;
+     
+    }
+
+    .formCta{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .formBlock{
+      max-width: 100%;
+      width: 75%;
+    }
+
+    .ctaEmail {
+      width: 100%;
+    }
+
+    .formBlock input {
+      width: 100%;
+    }
+
+    .ctaHeading{
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .ctaForm{
+      margin-top: 50px;
+    }
+
+
+}
