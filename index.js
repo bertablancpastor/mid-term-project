@@ -30,3 +30,19 @@ const infoJson = () => {
 }
 
 infoJson()
+
+// hamburguer
+
+const hamburguer = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav");
+
+hamburguer.addEventListener("click", () => {
+  hamburguer.classList.toggle("active");
+  navMenu.classList.toggle("active");
+})
+
+document.querySelectorAll("li").forEach(n => n. addEventListener("click", () => {
+  hamburguer.classList.remove("active");
+  navMenu.classList.remove("active");
+
+}))

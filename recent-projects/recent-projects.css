@@ -50,11 +50,10 @@
     margin: 0px 20px;
   }
 
-  .nav ul .home{
+  .home{
     color: #0082f3;
+    text-decoration: none;
   }
-
-
  
   li {
     position: relative;
@@ -66,6 +65,7 @@
     margin: 0px 20px;
     font-size: 17px;
     font-weight: bold;
+    color: #6b708d;
   }
 
   li:hover{
@@ -74,7 +74,7 @@
 
   .buttonContactUs{
     display: inline-block;
-    padding: 9px 15px;
+    padding: 15px 30px;
     background-color: #072ac8;
     color: white;
     border: 0;

@@ -3,8 +3,11 @@ const infoJson2 = () => {
     .then(response => response.json())
     .then((result) => {
 
-      document.querySelector(".titleProject").innerText = result.title;
-      document.querySelector(".textProject").innerText = result.body;
+      let newTitle = result.title.split(" ")
+      let title = `${newTitle[0]} ${newTitle[1]} ${newTitle[2]}`
+
+      document.querySelector(".titleProject").innerText = title;
+      document.querySelector(".textProject").innerText = `${result.body} ${result.body} ${result.body} ${result.body}` ;
 
   
     })

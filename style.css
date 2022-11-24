@@ -59,11 +59,10 @@ CTA Backgrouns Color: #FFC600
     margin: 0px 20px;
   }
 
-  .nav ul .home{
+  .home{
     color: #0082f3;
+    text-decoration: none;
   }
-
-
  
   li {
     position: relative;
@@ -75,6 +74,7 @@ CTA Backgrouns Color: #FFC600
     margin: 0px 20px;
     font-size: 17px;
     font-weight: bold;
+    color: #6b708d;
   }
 
   li:hover{
@@ -661,6 +661,7 @@ CTA Backgrouns Color: #FFC600
     .navbar {
       flex-direction: column;      
     }
+
     .mainContainer{
       flex-direction: column;
       
@@ -778,12 +779,70 @@ CTA Backgrouns Color: #FFC600
 
   /* phone */
   @media(max-width:500px){
+    
     .navbar {
       margin-top: 0px;
-      flex-direction: column;  
+      display: flex; 
       padding-right: 30px;
-      padding-left: 30px;  
+      padding-left: 30px;
+      flex-direction: row;
     }
+
+    .nav{
+      display: none;
+    }
+
+    .nav ul {
+      margin: 0;
+      align-items: center;
+    }
+
+    .hamburger{
+      display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+
+    ul{
+      gap: 0;
+      flex-direction: column;
+      background-color: #F2F4Fc;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    li{
+      margin: 16px 0;
+      padding: 0;
+    }
+
+    .active{
+      display: block ;
+    }
+
+    .bar{
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      background-color: #292e47;
+    }
+
+    .buttonContactUs{
+      display: none;
+    }
+
     .mainContainer{
       margin-top: 0px;
       flex-direction: column;
