@@ -1,4 +1,5 @@
 # Mid term project🚀
+![foto cabecera](https://mid-term-project-gold.vercel.app/)
 # [Mi Trello](https://trello.com/invite/b/DWjIjxeu/ATTI5503efaafa96ef3f8a1557831f6792839EDE7C1C/midterm-project)
 
 ### Día 1 - 21NOV2022 📆
