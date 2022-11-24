@@ -286,3 +286,23 @@
     line-height: 20px;
     font-weight: 550;
   }
+
+/* mediaquerys */
+/* phone */
+@media(max-width:500px){
+  .navbar {
+    margin-top: 0px;
+    flex-direction: column;  
+    padding-right: 30px;
+    padding-left: 30px;  
+  }
+
+  .containerContactUs{
+    margin-top: 0px;
+  }
+
+  .titleContactUs{
+    margin-bottom: 40px;
+    font-size: 40px;
+  }
+}

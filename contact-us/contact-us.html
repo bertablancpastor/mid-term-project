@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./contact-us.css" />
 
 </head>
+<body>
 <!-- header -->
 <header class = "navbar">
     <img id="navbarLogo" src="../project-assets/logos/circle.svg" alt="circle-logo" />
@@ -31,22 +32,22 @@
     <div class="containerContactUs">
         <h1 class="titleContactUs">Contact Us</h1>
         <div class="contactForm">
-            <form id="email-form" name="email-form" data-name="Email Form" method="get" class="contactFormGrid" aria-label="Email Form">
+            <form id="emailForm" name="email-form" data-name="Email Form" method="get" class="contactFormGrid" aria-label="Email Form">
                 <div class="contactRow1">
                     <label class="contactName">Full Name *</label>
-                    <input type="text" class="contactTextName" placeholder="Enter your full name">
+                    <input type="text" class="contactTextName" id="name" placeholder="Enter your full name">
                 </div>
                 <div class="contactRow2">
                     <label class="contactEmail">Email</label>
-                    <input type="email" class="contactTextEmail" placeholder="Enter your email">
+                    <input type="email" class="contactTextEmail" id="email" placeholder="Enter your email">
                 </div>
                 <div class="contactRow3">
                     <label class="contactPhone">Phone number</label>
-                    <input type="tel" class="contactTextPhone" placeholder="Enter your phone number">
+                    <input type="tel" class="contactTextPhone" id="phone" placeholder="Enter your phone number">
                 </div>
                 <div class="contactRow4">
                     <label class="contactMessage">Message *</label>
-                    <input type="field" class="contactTextMessage" placeholder="Enter your message here...">
+                    <input type="field" class="contactTextMessage" id="message" placeholder="Enter your message here...">
                 </div>
                 <input type="submit" name="" id="" class="submitButton">
             </form>
@@ -73,3 +74,9 @@
         </div>
     </div>
 </div>
+
+</body>
+<script src="../contact-us/contact-us.js"></script>
+    
+</body>
+</html>
