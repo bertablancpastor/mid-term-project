@@ -295,7 +295,7 @@
     font-weight: 550;
   }
 
-/* mediaquerys */
+/* media queries */
 /* phone */
 @media(max-width:500px){
   .navbar {
@@ -339,7 +339,7 @@
     align-items: center;
   }
 
-  ..footerContentLogo{
+  .footerContentLogo{
     align-items: center;
   }
 

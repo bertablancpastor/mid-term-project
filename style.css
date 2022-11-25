@@ -81,6 +81,13 @@ CTA Backgrouns Color: #FFC600
     color: #072AC8;
 }
 
+a{
+  cursor: pointer;
+  text-decoration: none;
+  color: #072AC8;
+}
+
+
   .buttonContactUs{
     display: inline-block;
     padding: 9px 15px;
@@ -90,6 +97,10 @@ CTA Backgrouns Color: #FFC600
     line-height: inherit;
     text-decoration: none;
     border-radius: 0;
+  }
+
+  .buttonContactUs:hover{
+    background-color: #292e47;
   }
 
   /* section Main  */

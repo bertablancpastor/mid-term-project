@@ -15,7 +15,7 @@ const infoJson = () => {
                             <div class ="projectText">
                                 <div class ="projectTitle">${element.title}</div>
                                 <div class ="projectDescription">${element.body}</div>
-                                <a href="./recent-projects/recent-projects.html" target="_blank" class="projectLink" >Learn More</a>
+                                <a href="./recent-projects/recent-projects.html" class="projectLink" >Learn More</a>
                             </div>
                         </div>
                     </div>
