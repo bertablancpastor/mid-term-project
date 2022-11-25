@@ -30,3 +30,8 @@
 <li>3. Si se termina responsive empezar a dar functions con JS</li>
 
 ### Día 5 - 25NOV2022 📆
+<p>4º y ultimo día de proyecto:</p>
+<li>1. Actualizar readme.md</li>
+<li>2. Retocar apartados</li>
+<li>3. Preparar presentacióm</li>
+<li>4. Exposición de presentaciones</li>

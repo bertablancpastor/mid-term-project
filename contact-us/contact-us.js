@@ -23,7 +23,7 @@ const emailForm = (preventForm) => {
     })
       .then((response) => response.json())
       .then((formData) => console.log(formData))
-      .then(() => alert("todo correcto"))
+      .then(() => alert("Your form has been sent it successfully! We contact you as soon as possible! Thank you!"))
       .then(() => inputs.reset())
       .catch((error) => console.log(error));
   };

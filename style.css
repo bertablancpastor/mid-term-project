@@ -54,7 +54,7 @@ CTA Backgrouns Color: #FFC600
   .nav ul{
     display: flex;
     list-style: none;
-    position: relative;
+    /* position: relative; */
     float:right;
     margin: 0px 20px;
   }
@@ -823,13 +823,13 @@ CTA Backgrouns Color: #FFC600
     ul{
       gap: 0;
       flex-direction: column;
-      background-color: #F2F4Fc;
+      background-color: #C8C8C8;
       width: 100%;
-      text-align: center;
+      text-align: left;
       transition: 0.3s;
       position: absolute;
-      left: -100%;
-      top:0%    
+      left: 0;
+      top:150px;    
     }
 
     ul.active{
@@ -839,6 +839,7 @@ CTA Backgrouns Color: #FFC600
     li{
       margin: 16px 0;
       padding: 0;
+      color: #6b708D;
     }
 
     .active{
