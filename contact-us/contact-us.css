@@ -52,7 +52,7 @@
   }
 
   .home{
-    color: #0082f3;
+    color: #6b708d;
     text-decoration: none;
   }
 
@@ -73,10 +73,10 @@
   a{
     cursor: pointer;
     text-decoration: none;
-    color: #072AC8;
+    color: #6b708d;
   }
 
-  li:hover{
+  a:hover{
     color: #072AC8;
 }
 

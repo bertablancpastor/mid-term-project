@@ -217,6 +217,28 @@ p {
     /* display: inline-block; */
   }
 
+  .imgProjectEfect{
+    position: absolute;
+    margin-top: 180px;
+    right: auto;
+    bottom: auto;
+    z-index: -1;
+    width: 1120px;
+    height: 444px;
+    opacity: 0.4;
+    -webkit-filter: saturate(200%) blur(40px);
+    filter: saturate(200%) blur(40px);
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    -webkit-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  
+
   .projectContent{
     display: flex;
     height: 100%;
